@@ -18,7 +18,7 @@
  * Jakarta JSON Binding (JSON-B) defines a standard binding layer for
  * converting Java objects to and from JSON documents. It provides a
  * default mapping that covers the most common Java types and a rich
- * set of annotations and configuration options for customising that
+ * set of annotations and configuration options for customizing that
  * mapping.
  *
  * <p>{@link jakarta.json.bind.JsonbBuilder} is the starting point to
@@ -80,7 +80,7 @@
  *
  * <h3>Names from accessor methods</h3>
  *
- * <p>JSON property can be derived from names of accessor methods with
+ * <p>A JSON property can be derived from names of accessor methods with
  * {@code public} visibility. In the following class the {@code period} field
  * is package-private, so it does not determine the name of a JSON-B property.
  * The field is exposed through accessor methods named {@code getOrbitalPeriod}
