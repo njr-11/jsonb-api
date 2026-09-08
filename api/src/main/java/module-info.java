@@ -80,7 +80,7 @@
  *
  * <h3>Names from accessor methods</h3>
  *
- * <p>A JSON property can be derived from names of accessor methods with
+ * <p>A JSON property name can be derived from the name of an accessor method with
  * {@code public} visibility. In the following class the {@code period} field
  * is package-private, so it does not determine the name of a JSON property.
  * The field is exposed through accessor methods named {@code getOrbitalPeriod}
