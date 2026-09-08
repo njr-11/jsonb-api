@@ -98,7 +98,7 @@ import java.lang.reflect.Type;
  * <a href="http://tools.ietf.org/html/rfc7159">RFC 7159</a> and which is
  * also supported by Java Platform.
  *
- * <p>For optimal performance, reuse {@code JsonbBuilder} and {@code Jsonb}
+ * <p>For optimal performance, reuse {@code Jsonb}
  * instances. For a typical use-case, only one {@code Jsonb} instance is
  * required by an application.
  *
