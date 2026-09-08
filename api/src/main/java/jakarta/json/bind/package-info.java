@@ -43,7 +43,7 @@
  *
  *   String json_superior = jsonb.toJson(lakes[0]);
  *
- *   // Close if no longer needed; a Jsonb instance should be reused throughout the application
+ *   // Close if no longer needed; a Jsonb instance should be reused throughout the application.
  *   jsonb.close();
  * }</pre>
  *

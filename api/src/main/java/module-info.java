@@ -74,7 +74,7 @@
  *
  *   Planet planet = jsonb.fromJson(json, Planet.class);
  *
- *   // Close if no longer needed; a Jsonb instance should be reused throughout the application
+ *   // Close if no longer needed; a Jsonb instance should be reused throughout the application.
  *   jsonb.close();
  * }</pre>
  *
